@@ -1,0 +1,5 @@
+# Ignore checkpoints
+**/.ipynb_checkpoints/**
+
+# Ignore cache files
+**/__pycache__/**
