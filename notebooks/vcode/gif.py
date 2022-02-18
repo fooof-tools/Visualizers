@@ -1,4 +1,4 @@
-"""Gif related functions and utilities for the specparam visualizers."""
+"""Gif related functions."""
 
 import time
 from IPython.display import clear_output
@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 ###################################################################################################
 ###################################################################################################
 
-def _gif_plot_output(fig, save, build_ind, label='fig', sleep=0.01, folder='outputs'):
+def animate_plot(fig, save, build_ind, label='fig', sleep=0.01, folder='outputs'):
     """Helper function for showing and/or saving out gif images."""
 
     if save:
@@ -17,10 +17,3 @@ def _gif_plot_output(fig, save, build_ind, label='fig', sleep=0.01, folder='outp
     else:
         plt.show();
         time.sleep(sleep)
-
-
-def incrementer(start=0, end=999):
-    """Incrementer yielder."""
-
-    for ind in range(start, end):
-        yield ind
