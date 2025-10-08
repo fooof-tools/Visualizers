@@ -6,3 +6,4 @@ Re-use is allowed, following the included license.
 
 Available visualizers include:
 - `specrot`: animated visualization of spectral rotation
+- `specparam-algorithm`: animated visualization of the spectral fitting algorithm
