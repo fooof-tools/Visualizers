@@ -12,7 +12,8 @@ def savefig(fig, save, build_ind, label, folder='outputs', close=True):
     """Helper function for saving out a figure."""
 
     if save:
-        fig.savefig(folder + '/' + label + '/gif_' + str(build_ind), bbox_inches="tight", dpi=300)
+        fig.savefig(folder + '/' + label + '/gif_' + str(build_ind),
+                    bbox_inches="tight", transparent=True, dpi=300)
 
     if close:
         plt.close()
