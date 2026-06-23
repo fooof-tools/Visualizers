@@ -1,4 +1,4 @@
-# SpecParam Visualizers
+# specparam Visualizers
 
 Animated visualizers for spectral parameterization.
 
@@ -20,6 +20,7 @@ meaning if you wish to use and adapt this code, you may do so.
 ## Visualizations
 
 Visualizations created in this repository include:
+- visualization of the spectral fitting algorithm
 - visualization of spectral rotation, with correlated changes between exponent and offset
 
 ## Examples
